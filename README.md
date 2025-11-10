@@ -3,33 +3,12 @@
 A lightweight and extensible **FastAPI-based Image Processing API** that supports multiple operations such as **Gaussian Blur**, **Edge Detection**, **Grayscale Conversion**, and **Binary Thresholding**.  
 Built using **NumPy**, **Pillow**, and **SciPy**.
 
----
-
 ## Features
 
 - **Gaussian Blur** — Apply smooth blurring using a customizable kernel size and sigma.  
 - **Edge Detection** — Detect edges using the Laplacian operator.  
 - **Grayscale Conversion** — Convert images to grayscale (simple or weighted).  
 - **Binary Thresholding** — Convert images into black-and-white binary form based on intensity threshold.  
-
----
-
-## Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/<your-username>/image-processing-toolkit.git
-cd image-processing-toolkit
-pip install -r requirements.txt
-If you don’t have a requirements.txt, install manually:
-
-bash
-Copy code
-pip install fastapi uvicorn pillow numpy scipy
-API Overview
-The backend uses FastAPI to provide endpoints for different image processing functions.
-Each function takes an uploaded image, applies the selected operation, and returns the processed output.
 
 Tools and Parameters
 1. Gaussian Blur
