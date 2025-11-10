@@ -77,19 +77,3 @@ uvicorn main:app --reload
 Visit the docs at:
 http://127.0.0.1:8000/docs
 ---
-## Folder Structure
-```
-.
-■■■ main.py
-■■■ image_tools.py
-■■■ temp/
-■■■ requirements.txt
-■■■ README.md
-```
----
-## Example Usage
-```
-curl -X POST "http://127.0.0.1:8000/gaussian-blur" -F "file=@sample.jpg" -F "size=5" -F
-"sigma=1.2"
-```
-This returns a processed blurred image file.
